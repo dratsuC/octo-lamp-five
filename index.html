@@ -14,14 +14,14 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <title>Quiz</title>
+    <title>Kaiden's Quiz</title>
   </head>
-  <body>
+  <body class='bg-dark'>
     <div class="container m-5" id="start">
       <div class="card" style="width: 18rem">
         <div class="card-body">
           <h5 class="card-title">Test your knowledge</h5>
-          <p class="card-text">Some quick description about the quiz .</p>
+          <p class="card-text">This is an all-out, no-holds-barred, raw quiz which will test your every skill. Once you are prepared, press 'start' to begin the gauntlet.</p>
           <a class="btn btn-primary">Start</a>
         </div>
       </div>
@@ -29,9 +29,9 @@
 
     <!-- (B) QUIZ CONTAINER -->
     <div class="container" id="quizBlock" style="display: none">
-      <div class="mb-5">
-        <h2>Test your knowledge</h2>
-        - Time remaining <span id="time">01:00</span>
+      <div class="mb-5 text-light">
+        <h2 >Test your knowledge</h2>
+        - Time remaining: <span id="time">BEGIN TESTING</span>
       </div>
       <div id="quizWrap"></div>
 
@@ -42,7 +42,7 @@
         <button type="button" class="btn btn-primary" id="btnReset">
           Reset Quiz
         </button>
-        <span id="score"></span>
+        <span id="score"></span>      
       </div>
     </div>
 
